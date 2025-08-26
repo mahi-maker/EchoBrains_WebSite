@@ -23,7 +23,7 @@ export const placedStudents: PlacedStudent[] = [
     year: 2024,
     package: '6.5 LPA',
    // image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg'
-    image: 'https://www.echobrains.in/images/test-04.png'
+    image: '/images/test-04.png'
   },
   {
     id: '2',
@@ -33,7 +33,7 @@ export const placedStudents: PlacedStudent[] = [
     year: 2024,
     package: '10.5 LPA',
    // image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg'
-    image: 'https://www.echobrains.in/images/test-02.png'
+    image: '/images/test-02.png'
   },
   {
     id: '3',
@@ -43,35 +43,76 @@ export const placedStudents: PlacedStudent[] = [
     year: 2024,
     package: '12 LPA',
    // image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg'
-    image: 'https://www.echobrains.in/images/test-01.png'
+    image: '/images/test-01.png'
   },
   {
     id: '4',
-    name: 'Sneha Patel',
+    name: 'G Sreenivasulu ',
     course: 'Embedded Systems',
-    company: 'HCL Technologies',
+    company: 'Mirafra Technologies',
     year: 2024,
-    package: '6.8 LPA',
-    image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg'
+    package: '4.5 LPA',
+    // image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg'
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Transparent_1x1.png'
   },
   {
     id: '5',
-    name: 'Vikash Yadav',
-    course: 'Java Full Stack',
-    company: 'Cognizant',
+    name: 'M.Meghashree',
+    course: 'Data Science',
+    company: 'ERBrains',
     year: 2024,
-    package: '7.5 LPA',
-    image: 'https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg'
+    package: '3.8 LPA',
+    // image: 'https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg'
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/1x1.png'
   },
   {
     id: '6',
-    name: 'Anjali Gupta',
-    course: 'Python Full Stack',
-    company: 'Accenture',
+    name: 'Narendra',
+    course: 'Embedded Systems',
+    company: 'Unicharm',
     year: 2024,
-    package: '8.0 LPA',
-    image: 'https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg'
-  }
+    package: '4 LPA',
+    // image: 'https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg'
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/1x1.png'
+  },
+  {
+    id: '7',
+    name: 'Thanvitha',
+    course: 'Java Full Stack',
+    company: 'Tech Mahindra',
+    year: 2024,
+    package: '3.8 LPA',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/1x1.png'
+  },
+  {
+    id: '8',
+    name: 'Soujanya y',
+    course: 'Embedded Systems',
+    company: 'Tata Elxsi',
+    year: 2024,
+    package: '4 LPA',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/1x1.png'
+  },
+  {
+    id: '9',
+    name: 'G Nagomi',
+    course: 'Data Science',
+    company: 'Wilmate Technologies',
+    year: 2024,
+    package: '5 LPA',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/1x1.png'
+  },
+  {
+    id: '10',
+    name: 'Sumanth S',
+    course: 'Data Science',
+    company: 'Wilmate Technologies',
+    year: 2024,
+    package: '4.5 LPA',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/1x1.png'
+  
+  },
+  
 ];
 
 export const companyPartners: CompanyPartner[] = [
@@ -79,66 +120,87 @@ export const companyPartners: CompanyPartner[] = [
     id: '1',
     name: 'capgemini',
     //logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Tata_Consultancy_Services_Logo.svg'
-    logo: 'https://www.echobrains.in/images/cl-03.jpg'
+    logo: '/images/cl-03.jpg'
   },
   {
     id: '2',
     name: 'l&t',
     //logo: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Infosys_logo.svg'
-    logo: 'https://www.echobrains.in/images/cl-01.jpg'
+    logo: '/images/cl-01.jpg'
   },
   {
     id: '3',
     name: 'Dextris',
    // logo: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Wipro_Primary_Logo_Color_RGB.svg'
-    logo: 'https://www.echobrains.in/images/cl-16.jpg'
+    logo: '/images/cl-16.jpg'
   },
   {
     id: '4',
     name: 'Tata motors',
    // logo: 'https://upload.wikimedia.org/wikipedia/commons/7/75/HCL_Technologies_Logo.svg'
-    logo: 'https://www.echobrains.in/images/cl-05.jpg'
+    logo: '/images/cl-05.jpg'
   },
   {
     id: '5',
     name: 'Tech Mahindra',
    // logo: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Cognizant_logo_2022.svg'
-    logo: 'https://www.echobrains.in/images/cl-04.jpg'
+    logo: '/images/cl-04.jpg'
   },
   {
     id: '6',
     name: 'Accord',
    // logo: 'https://upload.wikimedia.org/wikipedia/commons/8/80/Accenture.svg'
-    logo: 'https://www.echobrains.in/images/cl-13.jpg'
+    logo: '/images/cl-13.jpg'
   },
   {
     id:'7',
     name:'luxoft',
-    logo:'https://www.echobrains.in/images/cl-11.jpg'
+    logo:'/images/cl-11.jpg'
   },
   {
     id:'8',
     name:'musictribe',
-    logo:'https://www.echobrains.in/images/cl-15.jpg'
+    logo:'/images/cl-15.jpg'
   },
   {
     id:'9',
     name:'veoneer',
-    logo:'https://www.echobrains.in/images/cl-14.jpg'
+    logo:'/images/cl-14.jpg'
   },
   {
     id:'10',
     name:'mercedes benz',
-    logo:'https://www.echobrains.in/images/cl-08.jpg'
+    logo:'/images/cl-08.jpg'
   },
   {
     id:'11',
     name:'volvo',
-    logo:'https://www.echobrains.in/images/cl-07.jpg'
+    logo:'/images/cl-07.jpg'
   },
   {
     id:'12',
     name:'infineon',
-    logo:'https://www.echobrains.in/images/cl-10.jpg'
+    logo:'/images/cl-10.jpg'
   },
+  {
+    id:'13',
+    name:'university of petroleum and energy studies',
+    logo:'/images/cl-12.jpg'
+  },
+  {
+    id:'14',
+    name:'unisys',
+    logo:'/images/cl-09.jpg'
+  },
+  {
+    id: '15',
+    name: 'HCL Technologies',
+    logo: '/images/cl-06.jpg'
+  },
+  {
+    id: '16',
+    name: 'Cognizant',
+    logo: '/images/cl-02.jpg'
+  },
+ 
 ];

@@ -11,30 +11,84 @@ const Placement: React.FC = () => {
   const testimonials = [
     {
       id: '1',
-      name: 'Rahul Sharma',
-      company: 'TCS',
-      course: 'Java Full Stack',
+      name: 'G SREENIVASULU',
+      company: 'Mirafra Technologies',
+      course: 'EMBEDDED SYSTEMS',
       rating: 5,
-      text: 'Echo Brains transformed my career. The training was comprehensive and the placement support was excellent. Got placed in TCS with a great package!',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg'
+      text: "I'm delighted with my decision to choose Echobrains for embedded systems training. The instructors are outstanding, providing top-notch support and guidance. The training is of exceptional quality, with up-to-date content and invaluable practical experience. Plus, their placement assistance helped me land a job quickly. I highly recommend Echobrains!",
+      image: '/images/test-01.png'
     },
     {
       id: '2',
-      name: 'Priya Singh',
-      company: 'Infosys',
-      course: 'Python Full Stack',
+      name: 'M.Meghashree',
+      company: 'ERBrains',
+      course: 'data science',
       rating: 5,
-      text: 'The instructors are industry experts who provided practical knowledge. The mock interviews and resume preparation helped me ace the interviews.',
-      image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg'
+      text: '“Excellent training institute with knowledgeable instructors and a practical, well-structured curriculum. The supportive environment made learning enjoyable and effective. Highly recommended for anyone looking to upgrade their skills! The course content is up-to-date with industry standards, and the practical exposure is invaluable. Thanks to their placement assistance, I secured a job within a short period of time. Plus, their cost-effective fee structure makes it accessible to all.”',
+      image: '/images/test-01.png'
     },
     {
       id: '3',
-      name: 'Amit Kumar',
+      name: 'Narendra',
       company: 'Wipro',
+      course: 'EMBEDDED SYSTEMS',
+      rating: 5,
+      text: '“I\'m so glad I chose Echobrains for Embedded Training the instructors are phenomenal and provide top-notch support and guidance. The course content is comprehensive and covers the latest industry topics. Thanks to their placement assistance, I landed a great job shortly after completing the course. Best decision ever!”',
+      image: '/images/test-01.png'
+    },
+    {
+      id: '4',
+      name: 'Sohit',
+      company: 'Unisys',
+      course: 'Java Full Stack',
+      rating: 5,
+      text: '“Echobrains is an excellent training institute with knowledgeable instructors and a practical, well-structured curriculum. The supportive environment made learning enjoyable and effective. Highly recommended for anyone looking to upgrade their skills! The course content is up-to-date with industry standards, and the practical exposure is invaluable. Thanks to their placement assistance, I secured a job within a short period of time. Plus, their cost-effective fee structure makes it accessible to all.”',
+      image: '/images/test-01.png'
+    },
+    {
+      id: '5',
+      name: 'shylish.SD',
+      company: 'L&T',
+      course: 'Java Full Stack',
+      rating: 5,
+      text: '“Hello, I\'m Shylesh SD. Introduced to Echo Brains through a friend, with 2 years of experience since graduating in 2019. Their training center provides a structured learning approach, empowering software developers like me with hands-on skills and efficient collaboration methods, paving the way for promising placement opportunities.”',
+      image: '/images/test-01.png'
+    },
+    {
+      id: '6',
+      name: 'Thanvitha',
+      company: 'Tech Mahindra',
+      course: 'Java Full Stack',
+      rating: 5,
+      text: '"I\'m very much grateful to choose Echobrains for Java full stack training. Our training institute is dedicated to empowering individuals with the skills and knowledge needed to secure fulfilling careers. With expert instructors, hands-on learning, and a focus on industry-relevant skills, and with good placement assistance, which help me to grab the job. I highly recommend Echobrains!"',
+      image: '/images/test-01.png'
+    },
+    {
+      id: '7',
+      name: 'soujanya y',
+      company: 'Tata Elxsi',
+      course: 'Embedded Systems',
+      rating: 5,
+      text: "Echobrains' Embedded and Automotive course exceeded my expectations! The quality of training is unparalleled. The course content is up-to-date with industry standards, and the practical exposure is invaluable. Highly recommend!",
+      image: '/images/test-01.png'
+    },
+    {
+      id: '8',
+      name: 'G Nagomi ',
+      company: 'Wimate Technologies',
       course: 'Data Science',
       rating: 5,
-      text: 'Best decision ever! The course content is up-to-date with industry standards and the placement team worked tirelessly to get me placed.',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg'
+      text: "I joined the Data Science course at Echo Brains and got placed at Wimate. The training was clear and practical — from real projects to mock interviews and personal guidance. It really boosted my confidence.Grateful to Echo Brains for helping me kickstart my tech career. Highly recommend it!",
+      image: '/images/test-01.png'
+    },
+    {
+      id: '9',
+      name: 'Sumanth S',
+      company: ' Wimate Technologies',
+      course: 'Data Science',
+      rating: 5,
+      text: "I’m thrilled to share that I have been placed at Wimate Technologies as a Trainee Engineer!A big thank you to EchoBrains for being the driving force behind this achievement. The training provided was not just technical but also career-focused, helping me build confidence, improve my skills. If you're looking to kickstart your career with the right skills and real opportunities, I highly recommend EchoBrains!",
+      image: '/images/test-01.png'
     }
   ];
 
@@ -92,7 +146,7 @@ const Placement: React.FC = () => {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-400 mb-2">500+</div>
+              <div className="text-3xl font-bold text-green-400 mb-2">200+</div>
               <div className="text-blue-200">Students Placed</div>
             </div>
             <div className="text-center">
@@ -104,7 +158,7 @@ const Placement: React.FC = () => {
               <div className="text-blue-200">Company Partners</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-400 mb-2">8.5 LPA</div>
+              <div className="text-3xl font-bold text-green-400 mb-2">12 LPA</div>
               <div className="text-blue-200">Highest Package</div>
             </div>
           </div>

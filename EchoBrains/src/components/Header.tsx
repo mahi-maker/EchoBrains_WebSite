@@ -57,7 +57,7 @@ const Header: React.FC = () => {
           </Link> */}
           <Link to="/" className="flex items-center space-x-2 group">
              <img 
-                 src="https://www.echobrains.in/images/demo-accounting-logo-black.png" 
+                 src="/images/demo-accounting-logo-black.png" 
                  alt="Echo Brains Logo"
                  className="h-10 w-auto object-contain hover:scale-105 transition-transform duration-200"
               />
@@ -172,6 +172,15 @@ const Header: React.FC = () => {
             >
               Student Login
             </Link>
+
+            <a
+              href="http://echo-reactapp.s3-website.ap-south-1.amazonaws.com/sign-in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-orange-600 to-green-600 text-white px-6 py-2 rounded-lg font-medium hover:from-indigo-700 hover:to-green-700 transition-all duration-200 hover:scale-105"
+            >
+              Take Exam
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -310,6 +319,15 @@ const Header: React.FC = () => {
             >
               Student Login
             </Link>
+
+            <a
+              href="http://echo-reactapp.s3-website.ap-south-1.amazonaws.com/sign-in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block mx-4 mt-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2 rounded-lg font-medium text-center hover:from-indigo-700 hover:to-pink-700 transition-all duration-200"
+            >
+              Admin Login
+            </a>
           </nav>
         </div>
       </div>

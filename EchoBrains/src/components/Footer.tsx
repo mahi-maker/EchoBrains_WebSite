@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             </Link> */}
             <Link to="/" className="flex items-center space-x-2 group">
              <img 
-                 src="https://www.echobrains.in/images/demo-accounting-logo-black.png" 
+                 src="/images/demo-accounting-logo-black.png" 
                  alt="Echo Brains Logo"
                  className="h-10 w-auto object-contain hover:scale-105 transition-transform duration-200"
              />
